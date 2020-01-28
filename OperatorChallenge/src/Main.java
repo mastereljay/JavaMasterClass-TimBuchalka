@@ -16,7 +16,7 @@ public class Main {
 
         double firstDouble = 20.0d;
         double secondDouble = 80.0d;
-        double firstSum = firstDouble + secondDouble * 100.0d;
+        double firstSum = (firstDouble + secondDouble) * 100.0d;
         System.out.println("firstSum = " + firstSum);
         double firstModulo = firstSum % 40.0d;
         System.out.println("firstModulo = " + firstModulo);
